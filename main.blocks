@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="|@!GH2h:tn(3rMRL543T">Temperature</variable><variable id="dRg8#_6i^3P,P?e8#)Qn">Light level</variable></variables><block type="device_forever" id="FKp~q4Yq/7U,J3N5w5Ax" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="_!#aif,lKoEZh_O^61ag"><field name="VAR" id="|@!GH2h:tn(3rMRL543T">Temperature</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_temperature" id="-K%{gk_g;Ur|Jl1`v-7!"></block></value><next><block type="variables_set" id="R1e0rp;1yxB|+rDmEB6{"><field name="VAR" id="dRg8#_6i^3P,P?e8#)Qn">Light level</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="aDK#CQpc={;?K7Y}Pu/e"></block></value><next><block type="device_show_number" id="Ts=Q,78sCA+ARWIwc`zs"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="m{6i}{VL9Je61+u{_S`s"><field name="VAR" id="|@!GH2h:tn(3rMRL543T">Temperature</field></block></value><next><block type="device_show_leds" id="T*oc_R:of~wlu{jC2z~q"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field><next><block type="device_show_number" id="|}^[ldzx].jHQ5BbUFAR"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="*E|bM;dXm98p|n4l1uD3"><field name="VAR" id="dRg8#_6i^3P,P?e8#)Qn">Light level</field></block></value><next><block type="device_show_leds" id="dmfRGAdDP!#)4x?vrjE,"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
